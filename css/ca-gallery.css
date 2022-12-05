@@ -222,7 +222,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../pic/background2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -817,11 +817,12 @@ fieldset[disabled] .btn-primary:hover {
     font-weight: 700;
     padding: 20px 40px;
     border-radius: 3px;
-    color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    color: rgb(186, 242, 253);
+    border-color: #013af6;
+    background-color: #3104f7;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .btn-xl.focus,
@@ -833,8 +834,8 @@ fieldset[disabled] .btn-primary:hover {
 
 .btn-xl:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #013af6;
+    background-color: #2572b5;
 }
 
 .btn-xl.active,

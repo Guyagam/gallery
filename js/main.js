@@ -50,3 +50,12 @@ function renderModal(id) {
 
 
 }
+
+
+
+function onSend(ev) {
+  ev.preventDefault()
+  const SUBJECT = document.querySelector('.subject-txt').value
+  const TEXTAREA = document.querySelector('.text-area').value
+  sendMessage(SUBJECT, TEXTAREA)
+}

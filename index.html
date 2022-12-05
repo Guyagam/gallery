@@ -35,6 +35,18 @@
     <!-- Contact -->
     <section id="contact">
       <h4>Contact Me</h4>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Subject</label>
+          <input type="text" class="form-control subject-txt" id="exampleFormControlInput1"
+            placeholder="Message subject">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your message</label>
+          <textarea class="form-control text-area" id="exampleFormControlTextarea1" rows="4"></textarea>
+        </div>
+        <button onclick="onSend(event)" class="btn btn-warning">Send!</button>
+      </form>
     </section>
 
   </aside>

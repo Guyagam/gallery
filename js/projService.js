@@ -62,3 +62,11 @@ function getProj() {
 
   return gProjects
 }
+
+
+
+function sendMessage(sub, message) {
+
+  window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=guyos1997@gmail.com&su=${sub}&body=${message}`)
+
+}
