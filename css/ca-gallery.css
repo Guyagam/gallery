@@ -83,7 +83,7 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background: #f2f4f5;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -100,7 +100,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: linear-gradient(111.5deg, rgb(187, 232, 255) 11.1%, rgb(4, 78, 116) 107.5%);
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -157,7 +157,7 @@ body {
 }
 
 #mainNav .navbar-brand {
-    color: #fed136;
+    color: #84adea;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
@@ -165,7 +165,7 @@ body {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: #03c8fe;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -173,14 +173,14 @@ body {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: #84adea;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color: #25e0e3;
 }
 
 @media (min-width: 992px) {
@@ -376,6 +376,7 @@ header.masthead .intro-text .intro-heading {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
 }
 
 .portfolio-modal .modal-content h2 {
@@ -741,7 +742,7 @@ ul.social-buttons li a:hover {
 }
 
 .text-primary {
-    color: #fed136 !important;
+    color: #2b9bbe !important;
 }
 
 .btn-primary {
@@ -897,4 +898,25 @@ fieldset[disabled] .btn-xl:hover {
 
 .contact-nav {
     cursor: pointer;
+}
+
+#services {
+    background-color: #5692f2;
+}
+
+.service-icons {
+    background: radial-gradient(circle at 0.7% 1%, rgb(215, 248, 247) 0%, rgb(102, 188, 239) 100.2%);
+}
+
+.projs {
+    background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+
+.myself {
+    background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+.profilepic {
+    background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+
 }
